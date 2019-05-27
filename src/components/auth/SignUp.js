@@ -31,11 +31,11 @@ export class SignUp extends Component {
           </div>
           <div className="input-field">
             <label htmlFor="firstName">firstName</label>
-            <input type="firstName" id="firstName" onChange={this.handleChange}/>
+            <input type="text" id="firstName" onChange={this.handleChange}/>
           </div>
           <div className="input-field">
             <label htmlFor="lastName">lastName</label>
-            <input type="lastName" id="lastName" onChange={this.handleChange}/>
+            <input type="text" id="lastName" onChange={this.handleChange}/>
           </div>
           <div className="input-field">
             <button className="btn pink lighten z-depth-0">Sign Up</button>
